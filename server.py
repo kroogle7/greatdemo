@@ -4,6 +4,6 @@ from fastapi.responses import Response
 app = FastAPI()
 
 
-@app.get('/')
+@app.get("/")
 def index_page():
-    Response('Hello')
+    Response("Hi", media_type='text/html')
