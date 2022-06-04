@@ -1,10 +1,57 @@
 <html>
 <head>
-<title>Логин</title>
+<title>Личный кабинет</title>
 <meta charet = "utf-8" />
+<meta name= "viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+
+input {
+    display: block;
+    font-size: 20px;
+    padding: 12px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+form {
+    width: 90%;
+    min-width: 250px;
+    max-width: 350px;
+
+}
+
+body {
+    margin: 0; padding: 0;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+
+}
+
+.placeholder{
+    flex: 1;
+}
+
+</style>
 </head>
 <body>
-Hello, <strong>world!</strong>
+
+<div class="placeholder"></div>
+<form>
+    <input type="text" name="login" />
+    <input type="password" name="password" />
+    <input type="submit" value="Send" />
+
+</form>
+<div class="placeholder"></div>
+
+
 </body>
 
 </html>
